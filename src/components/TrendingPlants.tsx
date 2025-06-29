@@ -155,7 +155,7 @@ const TrendingPlants = () => {
       <div className="w-[93vw] items-center mx-auto min-h-[526px] backdrop-blur-[20px] rounded-2xl lg:rounded-[151px] mt-[152.8px] lg:flex">
         <img
           src="/imgs/plant_02.png"
-          className="md:w-[698px] md:h-[575px] w-[300px] h-[223px] lg:-mt-23 -mt-[132px]  img_01"
+          className="md:w-[698px] max-lg:mx-auto max-lg:block md:h-[575px] w-[300px] h-[223px] lg:-mt-23 -mt-[132px]  img_01"
           alt=""
         />
         <div className="text-ref-content" ref={textRef}>
@@ -166,7 +166,7 @@ const TrendingPlants = () => {
             Lorem ipsum dolor sit amet consectetur. Bibendum amet fringilla quis
             integer nunc imperdiet urna elit...{" "}
           </p>
-          <div className="cta-btn-1">
+          <div className="cta-btn-1 max-lg:w-fit max-lg:mx-auto py-7">
             <p className="text-[32px] mt-[33px] mb-4">N35, 000/-</p>
             <div className="flex gap-[27px]">
               <button className="border-2 text-[20px] cursor-pointer rounded-[10px] w-[166px] h-[53px]">
@@ -183,16 +183,16 @@ const TrendingPlants = () => {
           </div>
         </div>
       </div>
-      <div className="w-[93vw] items-center mx-auto h-[526px] backdrop-blur-[20px] rounded-[151px] mt-[152.8px] flex justify-center">
+      <div className="w-[93vw] items-center mx-auto min-h-[526px] backdrop-blur-[20px] rounded-2xl lg:rounded-[151px] max-lg:py-11 mt-[152.8px] lg:flex justify-center">
         <div className="text-ref-content-2" ref={textRef}>
-          <h3 className="split-text-2 capitalize font-semibold text-[32px]">
+          <h3 className="split-text-2 capitalize font-semibold max-lg:text-center text-[32px]">
             White Desk Ai Plan
           </h3>
-          <p className="split-text-2 text-[20px] mt-4 w-[400px]">
+          <p className="split-text-2 mx-auto text-[20px] mt-4 lg:w-[400px] w-[90%] max-lg:text-center">
             Lorem ipsum dolor sit amet consectetur. Bibendum amet fringilla quis
-            integer nunc imperdiet urna elit...{" "}
+            integer nunc imperdiet urna elit...
           </p>
-          <div>
+          <div className="max-lg:w-fit max-lg:mx-auto">
             <p className="text-[32px] mt-[33px] mb-4">N45, 000/-</p>
             <div className="flex gap-[27px]">
               <button className="border-2 text-[20px] cursor-pointer rounded-[10px] w-[166px] h-[53px]">
@@ -210,7 +210,7 @@ const TrendingPlants = () => {
         </div>
         <img
           src="/imgs/plant_03.png"
-          className="w-[698px] h-[575px] -mt-26  img_02"
+          className="w-[698px] h-[575px] lg:-mt-26 -mt-8  img_02"
           alt=""
         />
       </div>

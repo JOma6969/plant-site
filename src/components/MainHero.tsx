@@ -105,7 +105,7 @@ const MainHero = () => {
           ref={textRef}
         >
           Lorem ipsum dolor sit amet consectetur. Bibendum amet fringilla quis
-          integer nunc imperdiet urna elit&nbsp;.{" "}
+          integer nunc imperdiet urna elit.{" "}
         </p>
         <div className="mt-4 mx-auto max-lg:w-fit flex gap-4 lg:gap-[26px] cta-hero-btns">
           <button className="border-2 rounded-[10px] lg:w-[149px] max-lg:px-4 lg:text-[24px]">
