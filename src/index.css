@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+body,
+html {
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+.border-gradient {
+  border: 2px solid;
+  border-image-source: linear-gradient(
+    151.44deg,
+    #ffffff 11.01%,
+    rgba(204, 204, 204, 0) 37.16%,
+    rgba(204, 204, 204, 0) 59.51%,
+    #ffffff 88.99%
+  );
+  border-image-slice: 1;
+  border-radius: 42px !important;
+}
+
+
+.slick-list {
+  overflow: visible !important;
+  /* overflow-x: hidden !important; */
+  width: 100%;
+}
