@@ -1,6 +1,6 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import React, { useRef } from "react";
+import { useRef } from "react";
 
 const TopSelling = () => {
   const containerRef = useRef<HTMLDivElement | null>(null);
@@ -33,47 +33,47 @@ const TopSelling = () => {
 
   const topSellingArr: { img: string; price: string; name: string }[] = [
     {
-      img: "",
+      img: "/imgs/calethea_plant.png",
       price: "25, 000",
-      name: "calathea",
+      name: "calethea",
     },
     {
-      img: "",
+      img: "/imgs/desk_plant.png",
       price: "55, 000",
       name: "desk",
     },
     {
-      img: "",
+      img: "/imgs/memorial_plant.png",
       price: "35, 000",
       name: "memorial",
     },
     {
-      img: "",
+      img: "/imgs/home_plant.png",
       price: "45, 000",
       name: "home",
     },
     {
-      img: "",
+      img: "/imgs/beautiful_plant.png",
       price: "35, 000",
       name: "beautiful",
     },
     {
-      img: "",
+      img: "/imgs/table_plant.png",
       price: "15, 000",
       name: "table",
     },
     {
-      img: "",
+      img: "/imgs/outdoor_plant.png",
       price: "65, 000",
       name: "outdoor",
     },
     {
-      img: "",
+      img: "/imgs/room_plant.png",
       price: "55, 000",
       name: "room",
     },
     {
-      img: "",
+      img: "/imgs/Alexander_s_plant.png",
       price: "105, 000",
       name: "Alexander's",
     },
@@ -97,8 +97,8 @@ const TopSelling = () => {
         </div>
         <div className="grid grid-cols-3 gap-[29px]">
           {topSellingArr.map((sellingInst, i) => (
-            <div key={i}>
-              <img src={sellingInst.img} alt="" />
+            <div key={i} className="px-[40px] border-2 mt-34 pb-10 rounded-[84px] -border-t-[100px] sellingInst">
+              <img src={sellingInst.img} alt="" className="h-[457px] w-[319px] -mt-[159px]" />
               <p className="text-[36px] mb-[15px]">{sellingInst.name} plant</p>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Bibendum amet fringilla

@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { ScrollTrigger } from "gsap/all";
 import { useGSAP } from "@gsap/react";
 import SplitType from "split-type";
@@ -44,7 +44,7 @@ const TrendingPlants = () => {
           opacity: 1,
           duration: 1,
           scrollTrigger: {
-            trigger: ".testimony-01",
+            trigger: ".img_01",
             start: "50% bottom",
             end: "bottom 90%",
             scrub: true,
@@ -101,7 +101,7 @@ const TrendingPlants = () => {
           opacity: 1,
           duration: 1,
           scrollTrigger: {
-            trigger: ".testimony-01",
+            trigger: ".img_02",
             start: "50% bottom",
             end: "bottom 90%",
             scrub: true,
