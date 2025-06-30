@@ -132,7 +132,7 @@ const TopSelling = () => {
                 alt=""
                 className="absolute -top-[159px] left-1/2 -translate-x-1/2 h-[457px] w-[319px]"
               />
-              <p className="text-[36px] mb-[15px]">{sellingInst.name} plant</p>
+              <p className="text-[36px] mb-[15px] capitalize">{sellingInst.name} plant</p>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Bibendum amet fringilla
                 quis integer nunc imperdiet urna elit...

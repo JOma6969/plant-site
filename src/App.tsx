@@ -3,7 +3,7 @@ import TopSelling from "./components/TopSelling"
 
 const App = () => {
   return (
-    <div>
+    <div className="bg-[#141F10]">
       <Hero />
       <TopSelling />
     </div>
