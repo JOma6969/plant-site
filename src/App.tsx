@@ -1,4 +1,5 @@
 import Hero from "./components/Hero"
+import Testimonials from "./components/Testimonials"
 import TopSelling from "./components/TopSelling"
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     <div className="bg-[#141F10]">
       <Hero />
       <TopSelling />
+      <Testimonials />
     </div>
   )
 }
