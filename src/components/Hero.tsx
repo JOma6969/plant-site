@@ -4,7 +4,7 @@ import TrendingPlants from "./TrendingPlants";
 
 const Hero = () => {
   return (
-    <div className="relative text-white pb-[54px]">
+    <div className="relative text-white pb-[54px] object-cover">
       {/* <img src="/imgs/hero-bg.webp" className="object-cover absolute top-0 -z-1 h-full w-full" loading="lazy" alt="" /> */}
       <Navbar />
       <MainHero />

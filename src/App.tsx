@@ -1,3 +1,4 @@
+import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Testimonials from "./components/Testimonials"
 import TopSelling from "./components/TopSelling"
@@ -8,6 +9,7 @@ const App = () => {
       <Hero />
       <TopSelling />
       <Testimonials />
+      <Footer />
     </div>
   )
 }

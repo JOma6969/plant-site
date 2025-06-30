@@ -22,7 +22,7 @@ const Navbar = () => {
         <img src="/imgs/logo.png" className="w-9 h-10" alt="" />
         <h1 className="font-bold text-[28px]">Planto.</h1>
       </div>
-      <div className="hidden lg:block">
+      <div className="hidden min-[1250px]:block">
         <ul className="flex gap-15 text-[24px]">
           <li>
             <a href="">Home</a>

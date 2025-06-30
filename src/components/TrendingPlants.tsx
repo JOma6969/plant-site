@@ -152,7 +152,7 @@ const TrendingPlants = () => {
           />
         </div>
       </div>
-      <div className="w-[93vw] items-center mx-auto min-h-[526px] backdrop-blur-[20px] rounded-2xl lg:rounded-[151px] mt-[152.8px] lg:flex">
+      <div className="w-[93vw] bg-white/5 items-center mx-auto min-h-[526px] backdrop-blur-[20px] rounded-2xl lg:rounded-[151px] mt-[152.8px] lg:flex">
         <img
           src="/imgs/plant_02.png"
           className="md:w-[698px] max-lg:mx-auto max-lg:block md:h-[575px] w-[300px] h-[223px] lg:-mt-23 -mt-[132px]  img_01"
@@ -183,7 +183,7 @@ const TrendingPlants = () => {
           </div>
         </div>
       </div>
-      <div className="w-[93vw] items-center mx-auto min-h-[526px] backdrop-blur-[20px] rounded-2xl lg:rounded-[151px] max-lg:py-11 mt-[152.8px] lg:flex justify-center">
+      <div className="w-[93vw] bg-white/5 items-center mx-auto min-h-[526px] backdrop-blur-[20px] rounded-2xl lg:rounded-[151px] max-lg:py-11 mt-[152.8px] lg:flex justify-center">
         <div className="text-ref-content-2" ref={textRef}>
           <h3 className="split-text-2 capitalize font-semibold max-lg:text-center text-[32px]">
             White Desk Ai Plan

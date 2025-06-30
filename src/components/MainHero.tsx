@@ -118,7 +118,7 @@ const MainHero = () => {
             <p className="lg:text-[24px] font-medium">Live Demo...</p>
           </div>
         </div>
-        <div className="lg:mt-43 testimony-01 mt-20 rounded-[42px] w-fit px-10 py-[43px] backdrop-blur-[20px]">
+        <div className="lg:mt-43 bg-white/5 testimony-01 mt-20 rounded-[42px] w-fit px-10 py-[43px] backdrop-blur-[20px]">
           <div className="flex gap-3 items-center">
             <img src="/imgs/user_img_01.png" className="size-[49px]" alt="" />
             <div>
@@ -135,6 +135,12 @@ const MainHero = () => {
             integer nunc imperdiet urna elit...
           </p>
         </div>
+      </div>
+      <div className="bg-white/5 carousel relative w-[352px] pt-60 pb-15 pl-[27px] rounded-[82px] h-fit mt-8">
+        <img src="/imgs/plant_01.png" className="absolute w-full -top-28 left-1/2 transform -translate-x-1/2" alt="" />
+        <p>Trendy House Plant</p>
+        <p className="my-5 text-white/75 text-[35px]">Calathea Plant</p>
+        <button className="w-[150px] border-2 text-[20px] rounded-[10px] h-[47px]">Buy Now</button>
       </div>
     </div>
   );

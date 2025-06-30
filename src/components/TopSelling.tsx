@@ -125,7 +125,7 @@ const TopSelling = () => {
           {topSellingArr.map((sellingInst, i) => (
             <div
               key={i}
-              className="relative border-2 rounded-[84px] px-[40px] mb-[157px] pt-[299px] pb-10 bg-[#141F10]"
+              className="relative bg-white/5 rounded-[84px] px-[40px] mb-[157px] pt-[299px] pb-10 bg-[#141F10]"
             >
               <img
                 src={sellingInst.img}

@@ -63,7 +63,7 @@ const Testimonials = () => {
       </div>
       <div className="grid lg:grid-cols-3 gap-[21px]" ref={parent}>
         {users.map((userInst, i) => (
-          <div key={i} className="backdrop-blur-[20px] rounded-[84px] py-15 px-[55px] border-2">
+          <div key={i} className="backdrop-blur-[20px] bg-white/5 rounded-[84px] py-15 px-[55px]">
             <div className="flex items-center gap-[19px] mb-10">
               <img src={userInst.img} className="size-[71px]" alt="" />
               <div>
