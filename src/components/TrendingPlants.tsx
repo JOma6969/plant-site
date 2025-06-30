@@ -152,10 +152,10 @@ const TrendingPlants = () => {
           />
         </div>
       </div>
-      <div className="w-[93vw] bg-white/5 items-center mx-auto min-h-[526px] backdrop-blur-[20px] rounded-2xl lg:rounded-[151px] mt-[152.8px] lg:flex">
+      <div className="w-[93vw] bg-white/5 items-center max-lg:pt-45 mx-auto min-h-[526px] max-lg:relative backdrop-blur-[20px] rounded-2xl lg:rounded-[151px] mt-[152.8px] lg:flex">
         <img
           src="/imgs/plant_02.png"
-          className="md:w-[698px] max-lg:mx-auto max-lg:block md:h-[575px] w-[300px] h-[223px] lg:-mt-23 -mt-[132px]  img_01"
+          className="md:w-[698px] max-lg:block md:h-[575px] w-full h-[223px] -top-15 left-1/2 max-lg:transform max-lg:-translate-x-1/2  lg:-mt-23 max-lg:absolute img_01"
           alt=""
         />
         <div className="text-ref-content" ref={textRef}>
@@ -183,12 +183,12 @@ const TrendingPlants = () => {
           </div>
         </div>
       </div>
-      <div className="w-[93vw] bg-white/5 items-center mx-auto min-h-[526px] backdrop-blur-[20px] rounded-2xl lg:rounded-[151px] max-lg:py-11 mt-[152.8px] lg:flex justify-center">
+      <div className="w-[93vw] bg-white/5 items-center max-lg:pb-10 mx-auto min-h-[526px] max-lg:pt-70 backdrop-blur-[20px] rounded-2xl lg:rounded-[151px] mt-[152.8px] flex flex-col-reverse max-lg:relative lg:flex-row justify-center">
         <div className="text-ref-content-2" ref={textRef}>
           <h3 className="split-text-2 capitalize font-semibold max-lg:text-center text-[32px]">
             White Desk Ai Plan
           </h3>
-          <p className="split-text-2 mx-auto text-[20px] mt-4 lg:w-[400px] w-[90%] max-lg:text-center">
+          <p className="split-text-2 text-[20px] mt-4 w-[90%] max-md:text-center max-md:mx-auto lg:w-[400px]">
             Lorem ipsum dolor sit amet consectetur. Bibendum amet fringilla quis
             integer nunc imperdiet urna elit...
           </p>
@@ -210,7 +210,7 @@ const TrendingPlants = () => {
         </div>
         <img
           src="/imgs/plant_03.png"
-          className="w-[698px] h-[575px] lg:-mt-26 -mt-8  img_02"
+          className="w-[698px] h-[575px] lg:-mt-26 -mt-8  img_02 max-lg:absolute max-lg:-top-30"
           alt=""
         />
       </div>

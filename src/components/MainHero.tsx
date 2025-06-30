@@ -136,9 +136,9 @@ const MainHero = () => {
           </p>
         </div>
       </div>
-      <div className="bg-white/5 carousel relative w-[352px] pt-60 pb-15 pl-[27px] rounded-[82px] h-fit mt-8">
+      <div className="bg-white/5 carousel relative lg:w-[352px] pt-60 pb-15 pl-[27px] rounded-[40px] lg:rounded-[82px] h-fit mt-10">
         <img src="/imgs/plant_01.png" className="absolute w-full -top-28 left-1/2 transform -translate-x-1/2" alt="" />
-        <p>Trendy House Plant</p>
+        <p className="mt-9">Trendy House Plant</p>
         <p className="my-5 text-white/75 text-[35px]">Calathea Plant</p>
         <button className="w-[150px] border-2 text-[20px] rounded-[10px] h-[47px]">Buy Now</button>
       </div>
